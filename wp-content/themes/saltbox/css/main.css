@@ -91,9 +91,9 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 25px 10px;
+  padding: 10px 30px 10px;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 400;
   color: var(--white);
   white-space: nowrap;
   transition: 0.3s;
@@ -143,4 +143,45 @@ header {
 }
 #hero .btn.book-a-tour {
   margin-left: 0;
+}
+
+
+/* Secondary Navbar */
+#secondary-navbar{
+  padding: 20px 0;
+}
+#secondary-navbar .navbar {
+  padding: 0;
+  justify-content: center;
+  align-content: center;
+}
+#secondary-navbar .navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
+}
+#secondary-navbar .navbar li {
+  position: relative;
+}
+#secondary-navbar .navbar li a,
+#secondary-navbar .navbar li a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 72px 10px;
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--color-default);
+  white-space: nowrap;
+  transition: 0.3s;
+  text-transform: uppercase;
+}
+#secondary-navbar .navbar li a:hover,
+#secondary-navbar .navbar .active,
+#secondary-navbar .navbar .active:focus,
+#secondary-navbar .navbar li:hover>a {
+  color: var(--color-secondary);
 }
