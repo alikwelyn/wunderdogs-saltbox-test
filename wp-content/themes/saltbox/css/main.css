@@ -9,7 +9,8 @@
 /* Colors */
 :root {
     --white: #ffffff;
-    --light-gray: #dddddd;
+    --seashell: #F1F1F1;
+    --light-gray: #F9F8F6;
     --color-default: #101010;
     --color-primary: #1A1A1A;
     --color-secondary: #FDB706;
@@ -38,18 +39,19 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Buttons */
-.btn.book-a-tour,
-.btn.book-a-tour:focus {
+.btn-default,
+.btn-default:focus {
   padding: 12px 24px;
   margin-left: 30px;
   color: var(--white);
   font-size: 16px;
   border: 2px solid var(--white);
-  font-weight: 600;
+  font-weight: 700;
   border-radius: 0;
+  transition: 0.3s;
 }
-.btn.book-a-tour:hover,
-.btn.book-a-tour:focus:hover {
+.btn-default:hover,
+.btn-default:focus:hover {
   color: var(--color-default);
   background: var(--color-secondary);
   border-color: var(--color-secondary);
@@ -104,6 +106,16 @@ header {
 .navbar li:hover>a {
   color: var(--color-secondary);
 }
+.navbar li a.btn-default,
+.navbar li a.btn-default:focus {
+  font-weight: 700;
+}
+.navbar li a.btn-default:hover,
+.navbar li a.btn-default:focus:hover {
+  color: var(--color-default);
+  background: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
 
 /* Section - Hero */
 #hero {
@@ -147,7 +159,7 @@ header {
 
 
 /* Secondary Navbar */
-#secondary-navbar{
+#secondary-navbar {
   padding: 20px 0;
 }
 #secondary-navbar .navbar {
@@ -184,4 +196,101 @@ header {
 #secondary-navbar .navbar .active:focus,
 #secondary-navbar .navbar li:hover>a {
   color: var(--color-secondary);
+}
+
+/* Section - Spaces */
+#spaces {
+  padding: 89px 0;
+}
+#spaces .spaces-title h2 {
+  font-family: var(--font-secondary);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 58px;
+  color: var(--color-primary);
+  margin-bottom: 67px;
+  padding-bottom: 5px;
+  position: relative;
+  text-align: center;
+}
+#spaces .spaces-title h2:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 202px;
+  height: 8px;
+  background-image: url("../assets/images/border-orange.svg");
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+#spaces .spaces-header {
+  background-color: var(--light-gray);
+  padding: 70px 218px;
+}
+#spaces .spaces-header h3 {
+  font-family: var(--font-secondary);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 58px;
+  color: var(--color-primary);
+}
+#spaces .spaces-header .btn-default,
+#spaces .spaces-header .btn-default:focus {
+  padding: 18px;
+  margin-left: 0px;
+  color: var(--color-default);
+  border: 2px solid var(--color-default);
+}
+#spaces .spaces-header .btn-default:hover,
+#spaces .spaces-header .btn-default:focus:hover {
+  padding: 18px;
+  margin-left: 0px;
+  color: var(--color-default);
+  border: 2px solid var(--color-secondary);
+}
+#spaces .spaces-content {
+  background-color: var(--light-gray);
+  padding: 29px 218px 70px;
+}
+#spaces .spaces-content .zoom a {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  font-size: 20px;
+  color: var(--color-secondary);
+  transition: 0.3s;
+}
+#spaces .spaces-content .zoom a:hover {
+  color: var(--color-default);
+}
+#spaces .spaces-content .card {
+  background: #FFFFFF;
+  border: 1px solid #F1F1F1;
+  border-radius: 0;
+  height: 378px;
+}
+#spaces .spaces-content .card img {
+  width: 316px;
+  height: 232px;
+  margin: 0 auto;
+}
+#spaces .spaces-content .card .card-body {
+  padding: 0 24px 24px 24px;
+}
+#spaces .spaces-content .card .card-body h5 {
+  font-family: var(--font-secondary);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: var(--color-primary);
+}
+#spaces .spaces-content .card .card-body p {
+  font-family: var(--font-default);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--color-default);
+  padding-top: 20px;
 }

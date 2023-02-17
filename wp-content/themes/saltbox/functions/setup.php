@@ -38,7 +38,7 @@ add_action( 'init', 'register_menu' );
 */
 function add_specific_class_menu_item( $atts, $item, $args ) {
     if($item->title === 'BOOK A TOUR'){
-        $class = 'btn book-a-tour';
+        $class = 'btn-default';
         $atts['class'] = $class;
     }
    return $atts;
