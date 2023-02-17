@@ -11,6 +11,7 @@
     --white: #ffffff;
     --seashell: #F1F1F1;
     --light-gray: #F9F8F6;
+    --blue: #2B64A9;
     --color-default: #101010;
     --color-primary: #1A1A1A;
     --color-secondary: #FDB706;
@@ -42,7 +43,6 @@ h1, h2, h3, h4, h5, h6 {
 .btn-default,
 .btn-default:focus {
   padding: 12px 24px;
-  margin-left: 30px;
   color: var(--white);
   font-size: 16px;
   border: 2px solid var(--white);
@@ -153,9 +153,6 @@ header {
   color: var(--white);
   margin-bottom: 50px;
 }
-#hero .btn.book-a-tour {
-  margin-left: 0;
-}
 
 
 /* Secondary Navbar */
@@ -200,7 +197,7 @@ header {
 
 /* Section - Spaces */
 #spaces {
-  padding: 89px 0;
+  padding: 89px 0 0;
 }
 #spaces .spaces-title h2 {
   font-family: var(--font-secondary);
@@ -219,7 +216,7 @@ header {
   display: block;
   width: 202px;
   height: 8px;
-  background-image: url("../assets/images/border-orange.svg");
+  background-image: url("../assets/images/border-orange-2.svg");
   left: 0;
   right: 0;
   bottom: 0;
@@ -239,14 +236,12 @@ header {
 #spaces .spaces-header .btn-default,
 #spaces .spaces-header .btn-default:focus {
   padding: 18px;
-  margin-left: 0px;
   color: var(--color-default);
   border: 2px solid var(--color-default);
 }
 #spaces .spaces-header .btn-default:hover,
 #spaces .spaces-header .btn-default:focus:hover {
   padding: 18px;
-  margin-left: 0px;
   color: var(--color-default);
   border: 2px solid var(--color-secondary);
 }
@@ -293,4 +288,164 @@ header {
   line-height: 28px;
   color: var(--color-default);
   padding-top: 20px;
+}
+
+/* Section - What You'll Get */
+#what-youll-get {
+  padding: 64px 0;
+}
+#what-youll-get .section-title h2 {
+  font-family: var(--font-secondary);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 58px;
+  color: var(--color-primary);
+  margin-bottom: 48px;
+  padding-bottom: 5px;
+  position: relative;
+  text-align: center;
+}
+#what-youll-get .section-content {
+  background-color: var(--white);
+  padding: 29px 268px 70px;
+}
+#what-youll-get .section-content .card {
+  display: flex;
+  flex-flow: wrap;
+  flex: 100%;
+  margin-bottom: 43px;
+  border: none;
+}
+#what-youll-get .section-content .card .card-img-body {
+  width: 100px;
+}
+#what-youll-get .section-content .card .card-img {
+  width: auto;
+  height: auto;
+  border-radius: 0;
+}
+#what-youll-get .section-content .card:nth-child(even) .card-img-body {
+  order: 2;
+}
+#what-youll-get .section-content .card .card-body {
+  flex: 2;
+  padding: 0;
+}
+#what-youll-get .section-content .card:nth-child(even) .card-body {
+  padding-left: 0;
+  padding-right: 1.25rem;
+}
+#what-youll-get .section-content .boxes .card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: var(--light-gray);
+  border: 0;
+  border-radius: 0;
+  height: 475px;
+}
+#what-youll-get .section-content .boxes .card .card-header {
+  padding: 20px 23px 10px;
+  margin-bottom: 0;
+  background-color: transparent;
+  border-bottom: 0;
+}
+#what-youll-get .section-content .boxes .card .card-header h4,
+#what-youll-get .section-content .boxes .card .card-header h4.elastic {
+  font-family: var(--font-secondary);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: var(--color-primary);
+  margin-bottom: 28px;
+  padding-bottom: 10px;
+  position: relative;
+}
+#what-youll-get .section-content .boxes .card .card-header h4:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 140px;
+  height: 9.5px;
+  background-image: url("../assets/images/border-orange-3.svg");
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+#what-youll-get .section-content .boxes .card .card-header h4.elastic:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 198px;
+  height: 9.5px;
+  background-image: url("../assets/images/border-orange-4.svg");
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+#what-youll-get .section-content .boxes .card .card-header p {
+  font-family: var(--font-default);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: var(--color-default);
+}
+#what-youll-get .section-content .boxes .card .card-body {
+  padding: 0 18px 44px;
+}
+#what-youll-get .section-content .boxes .card .card-body ul {
+  padding: 0 0 0 4px;
+  margin: 0;
+  list-style-type: none;
+}
+#what-youll-get .section-content .boxes .card .card-body li.check {
+  background: url(../assets/images/check.svg) no-repeat left top;
+  height: 42px;
+  padding-top: 0px;
+  padding-left: 30px;
+}
+#what-youll-get .section-content .boxes .card .card-body ul li {
+  padding: 10px 0;
+}
+#what-youll-get .section-content .boxes .card  .card-footer {
+  padding: 0 20px 36px;
+  background-color: transparent;
+  border-top: 0;
+}
+#what-youll-get .section-content .boxes .card  .card-footer .btn-default,
+#what-youll-get .section-content .boxes .card  .card-footer .btn-default:focus {
+  color: var(--color-default);
+  border: 2px solid var(--color-default);
+}
+#what-youll-get .section-content .boxes .card  .card-footer .btn-default:hover,
+#what-youll-get .section-content .boxes .card  .card-footer .btn-default:focus:hover {
+  color: var(--color-default);
+  border: 2px solid var(--color-secondary);
+}
+
+#what-youll-get .section-content #cta .col-md-10 {
+  background-color: var(--blue);
+  padding: 24px 48px;
+}
+#what-youll-get .section-content #cta h2 {
+  font-family: var(--font-secondary);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  color: var(--white);
+}
+#what-youll-get .section-content #cta .btn-default,
+#what-youll-get .section-content #cta .btn-default:focus {
+  color: var(--color-default);
+  background-color: var(--color-secondary);
+  border: 2px solid var(--color-secondary);
+  float: right!important;
+}
+#what-youll-get .section-content #cta .btn-default:hover,
+#what-youll-get .section-content #cta .btn-default:focus:hover {
+  color: var(--white);
+  background-color: transparent;
+  border: 2px solid var(--white);
 }
