@@ -1,0 +1,146 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+    --font-default: 'Inter', sans-serif, Arial;
+    --font-secondary: 'Playfair Display', serif;
+}
+
+/* Colors */
+:root {
+    --white: #ffffff;
+    --light-gray: #dddddd;
+    --color-default: #101010;
+    --color-primary: #1A1A1A;
+    --color-secondary: #FDB706;
+}
+
+/* Smooth Scroll Behavior */
+:root {
+    scroll-behavior: smooth;
+}
+
+/* General */
+body {
+    font-family: var(--font-default);
+    color: var(--color-default);
+}
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--color-secondary);
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-default);
+}
+
+/* Buttons */
+.btn.book-a-tour,
+.btn.book-a-tour:focus {
+  padding: 12px 24px;
+  margin-left: 30px;
+  color: var(--white);
+  font-size: 16px;
+  border: 2px solid var(--white);
+  font-weight: 600;
+  border-radius: 0;
+}
+.btn.book-a-tour:hover,
+.btn.book-a-tour:focus:hover {
+  color: var(--color-default);
+  background: var(--color-secondary);
+  border-color: var(--color-secondary);
+}
+
+/* Sections & Section Header */
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+/* Header */
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  transition: all 0.5s;
+  z-index: 997;
+  padding: 15px 0;
+}
+
+/* Navbar */
+.navbar {
+  padding: 0;
+}
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+.navbar li {
+  position: relative;
+}
+.navbar li a,
+.navbar li a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 25px 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--white);
+  white-space: nowrap;
+  transition: 0.3s;
+}
+.navbar li a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover>a {
+  color: var(--color-secondary);
+}
+
+/* Section - Hero */
+#hero {
+  width: 100%;
+  height: 90vh;
+  background: var(--color-secondary);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/images/hero.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#hero .container {
+  padding-top: 72px;
+}
+#hero h1 {
+  margin: 0 0 10px 0;
+  font-family: var(--font-secondary);
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 72px;
+  color: var(--white);
+}
+#hero h1 span {
+  display: inline-block;
+  background-image: url("../assets/images/border-orange.svg");
+  background-size: 100% 9px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  padding: 0 7px;
+}
+#hero h2 {
+  font-family: var(--font-default);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--white);
+  margin-bottom: 50px;
+}
+#hero .btn.book-a-tour {
+  margin-left: 0;
+}
