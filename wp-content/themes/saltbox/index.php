@@ -15,5 +15,18 @@
   </section>
 
   <main id="main">
+
+    <section id="secondary-navbar">
+      <nav class="navbar navbar-expand-md">
+        <?php
+          wp_nav_menu( array(
+            'theme_location' => 'second-menu',
+            'menu_class' => 'navbar-nav',
+            'container' => false,
+          ) );
+        ?>
+      </nav>
+    </section>
+
   </main>
 <?php get_footer(); ?>
