@@ -389,5 +389,22 @@
       </div>
     </section>
 
+    <section id="neighborhood">
+      <div class="container-fluid">
+        <div class="section-title">
+          <div class="row">
+            <div class="col-md-6">
+              <h2>Get to Know the Neighborhood</h2>
+              <p>Atlanta’s Upper Westside is an easy-to-access neighborhood that combines the charm of in-town with the spaciousness of an industrial hub. Plus, there’s plenty of local breweries and barbecue joints perfect for a long lunch break or happy hour.</p>
+              <a href="#" class="btn-default">VIEW MAP OF THE AREA</a>
+            </div>
+            <div class="col-md-6 d-flex justify-content-center">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/neighborhood.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 <?php get_footer(); ?>
