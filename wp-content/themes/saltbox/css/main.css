@@ -580,3 +580,42 @@ header {
   line-height: 18px;
   color: var(--grey);
 }
+
+/* Section - Get to Know the Neighborhood */
+#neighborhood {
+  background-color: var(--light-gray);
+  padding: 64px 0;
+}
+#neighborhood .container-fluid{
+  padding: 29px 268px 0;
+}
+#neighborhood .section-title h2 {
+  font-family: var(--font-secondary);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 58px;
+  color: var(--color-primary);
+  margin-bottom: 20px;
+  padding-bottom: 0px;
+  position: relative;
+}
+#neighborhood .section-title p {
+  font-family: var(--font-default);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--color-default);
+  padding-bottom: 44px;
+}
+#neighborhood .section-title .btn-default,
+#neighborhood .section-title .btn-default:focus {
+  color: var(--white);
+  background-color: var(--blue);
+  border: 2px solid var(--blue);
+}
+#neighborhood .section-title .btn-default:hover,
+#neighborhood .section-title .btn-default:focus:hover {
+  color: var(--blue);
+  background-color: var(--white);
+  border: 2px solid var(--blue);
+}
