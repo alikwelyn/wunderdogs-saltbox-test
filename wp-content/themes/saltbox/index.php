@@ -292,5 +292,102 @@
       </div>
     </section>
 
+    <section id="our-team">
+      <div class="container-fluid">
+        <div class="section-title">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>Meet Our New Team</h2>
+            </div>
+          </div>
+        </div>
+        <div class="section-content">
+          <div class="row">
+            <div id="category_filter" class="col-md-12">
+              <ul>
+                <li><a href="">Category 1</a></li>
+                <li><a href="" class="active">Category 2</a></li>
+                <li><a href="">Category 3</a></li>
+                <li><a href="">Category 4</a></li>
+                <li><a href="">Category 5</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/worker-example.png" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5>Name Surname</h5>
+                  <p>Founder and CEO</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/worker-example.png" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5>Name Surname</h5>
+                  <p>Founder and CEO</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/worker-example.png" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5>Name Surname</h5>
+                  <p>Founder and CEO</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/worker-example.png" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5>Name Surname</h5>
+                  <p>Founder and CEO</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/worker-example.png" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5>Name Surname</h5>
+                  <p>Founder and CEO</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/worker-example.png" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5>Name Surname</h5>
+                  <p>Founder and CEO</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/worker-example.png" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5>Name Surname</h5>
+                  <p>Founder and CEO</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/worker-example.png" class="card-img-top" alt="">
+                <div class="card-body">
+                  <h5>Name Surname</h5>
+                  <p>Founder and CEO</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 <?php get_footer(); ?>
