@@ -7,12 +7,16 @@ function custom_enqueue_scripts() {
   // STYLES
 
   // Bootstrap 5
-  wp_register_style('bootstrap5', 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css', false, '5.1.0', null);
+  wp_register_style('bootstrap5', 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css', false, '5.2.3', null);
   wp_enqueue_style('bootstrap5');
 
   // FontAwesome 4
   wp_register_style('font-awesome4', 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css', false, '4.7.0', null);
   wp_enqueue_style('font-awesome4');
+
+  // SwiperJS 4
+  wp_register_style('swiperjs', 'https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css', false, '4.5.0', null);
+  wp_enqueue_style('swiperjs');
 
   // Main Style
   wp_register_style('main', get_template_directory_uri() . '/css/main.css', false, '1.0.0', null);
@@ -29,8 +33,12 @@ function custom_enqueue_scripts() {
   wp_enqueue_script('jquery');
 
   // Bundle Bootstrap 5
-  wp_register_script('bootstrap5', 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js', false, '5.1.0', true);
+  wp_register_script('bootstrap5', 'https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js', false, '5.2.3', true);
   wp_enqueue_script('bootstrap5');
+
+  // SwiperJS 4
+  wp_register_script('swiperjs', 'https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js', false, '4.5.0', true);
+  wp_enqueue_script('swiperjs');
 
   // Custom Scripts
   wp_register_script('custom', get_template_directory_uri() . '/js/custom.js', false, '1.0.0', true);
