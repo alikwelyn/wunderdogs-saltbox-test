@@ -460,5 +460,29 @@
       </div>
     </section>
 
+    <section id="sfysu">
+      <div class="container-fluid">
+        <div class="section-title">
+          <div class="row">
+            <div class="col-md-6">
+              <div id="see-for-youself">
+                <h2>See for Yourself</h2>
+                <p>We’d love to show you around one of our facilities and answer all your questions. Contact us now to arrange a tour.</p>
+                <a href="#" class="btn-default">VIEW MAP OF THE AREA</a>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div id="newsletter">
+                <h2>Stay Updated with Our Newsletter</h2>
+                <p>Get alerts on new locations, free education for business owners, and more - all neatly packed, shipped, and delivered straight to your inbox. Sign up now:</p>
+                <input type="email" class="form-control" placeholder="Email"><br>
+                <button href="#" class="btn-default">SUBSSCRIBE</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 <?php get_footer(); ?>

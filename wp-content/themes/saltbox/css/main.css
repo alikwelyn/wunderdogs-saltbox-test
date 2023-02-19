@@ -60,6 +60,68 @@ h1, h2, h3, h4, h5, h6 {
   border-color: var(--color-secondary);
 }
 
+/* Form & Inputs */
+.input-group-lg > .form-control,
+.input-group-lg > .input-group-addon,
+.input-group-lg > .input-group-btn > .btn {
+  font-size: 14px;
+}
+.form-control {
+  background-color: #fff;
+  color: #000;
+  height: 48px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  border-color: #A1A1A1;
+  font-family: var(--font-default);
+  font-weight: 400;
+}
+.form-group {
+  margin-bottom: 0.5rem;
+}
+textarea.form-control {
+  height: 200px;
+}
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: #A1A1A1;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  color: #A1A1A1;
+}
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: #A1A1A1;
+}
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: #A1A1A1;
+}
+.form-control:focus,
+form input[type="text"]:focus,
+form input[type="email"]:focus,
+form input[type="number"]:focus,
+form input[type="url"]:focus,
+form input[type="search"]:focus,
+form input[type="tel"]:focus,
+form input[type="password"]:focus,
+form input[type="date"]:focus,
+form input[type="color"]:focus,
+form select:focus,
+form textarea:focus {
+  color: #000;
+  border-color: #000;
+  -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+form label {
+  font-weight: bold;
+}
+
 /* Sections & Section Header */
 section {
   padding: 60px 0;
@@ -751,4 +813,71 @@ header {
 }
 #our-members-say .section-content .swiper-wrap .swiper-button-next, #our-members-say .section-content .swiper-wrap .swiper-container-rtl .swiper-button-prev {
   right: -90px;
+}
+
+/* Section - See for Yourself / Stay Updated with Our Newsletter */
+#sfysu {
+  background-color: var(--light-gray);
+  padding: 64px 0;
+  text-align: center;
+}
+#sfysu .container-fluid{
+  padding: 29px 268px 0;
+}
+#sfysu .section-title h2 {
+  font-family: var(--font-secondary);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 58px;
+  color: var(--color-primary);
+  margin-bottom: 10px;
+  padding-bottom: 0px;
+  position: relative;
+}
+#sfysu .section-title #see-for-youself h2:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 167px;
+  height: 8px;
+  background-image: url("../assets/images/border-orange-7.svg");
+  left: 48%;
+  right: 0;
+  bottom: 0;
+}
+#sfysu .section-title p {
+  font-family: var(--font-default);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  color: var(--color-default);
+  padding-bottom: 24px;
+}
+#sfysu .section-title #newsletter input.form-control {
+  width: 50%;
+  margin: 0 auto 24px;
+}
+#sfysu .section-title #see-for-youself .btn-default,
+#sfysu .section-title #see-for-youself .btn-default:focus {
+  color: var(--color-default);
+  background-color: var(--color-secondary);
+  border: 2px solid var(--color-secondary);
+}
+#sfysu .section-title #see-for-youself .btn-default:hover,
+#sfysu .section-title #see-for-youself .btn-default:focus:hover {
+  color: var(--white);
+  background-color: transparent;
+  border: 2px solid var(--white);
+}
+#sfysu .section-title #newsletter .btn-default,
+#sfysu .section-title #newsletter .btn-default:focus {
+  color: var(--color-default);
+  background-color: transparent;
+  border: 2px solid var(--color-default);
+}
+#sfysu .section-title #newsletter .btn-default:hover,
+#sfysu .section-title #newsletter .btn-default:focus:hover {
+  color: var(--color-default);
+  background-color: var(--color-secondary);
+  border: 2px solid var(--color-secondary);
 }
