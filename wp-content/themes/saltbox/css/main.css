@@ -619,3 +619,136 @@ header {
   background-color: var(--white);
   border: 2px solid var(--blue);
 }
+
+/* Section - Our Members Say */
+#our-members-say {
+  padding: 64px 0;
+}
+#our-members-say .section-title h2 {
+  font-family: var(--font-secondary);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 58px;
+  color: var(--color-primary);
+  margin-bottom: 67px;
+  padding-bottom: 5px;
+  position: relative;
+  text-align: center;
+}
+#our-members-say .section-title h2:after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 255px;
+  height: 9.3px;
+  background-image: url("../assets/images/border-orange-6.svg");
+  left: 45.3%;
+  right: 0;
+  bottom: 0;
+}
+#our-members-say .section-content {
+  background-color: var(--white);
+  padding: 0px 268px;
+}
+#our-members-say .section-content .card {
+  border: 0;
+  border-radius: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#our-members-say .section-content .card img {
+  width: 207px;
+  height: 207px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+#our-members-say .section-content .card .card-body {
+  padding: 0 24px;
+  text-align: left;
+}
+#our-members-say .section-content .card .card-body blockquote {
+  font-family: var(--font-default);
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 24px;
+  color: var(--color-primary);
+}
+#our-members-say .section-content .card .card-body blockquote p {
+  font-family: var(--font-default);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 14px;
+  color: var(--color-primary);
+}
+#our-members-say .section-content .card .card-body blockquote:before,
+#our-members-say .section-content .card .card-body blockquote:after{
+  position: absolute;
+}
+#our-members-say .section-content .card .card-body blockquote:before{
+  content: " ";
+  background-image: url(../assets/images/top-quote.svg);
+  top: 30px;
+  margin-right: -230px;
+  right: 100%;
+  width: 23px;
+  height: 16px;
+}
+#our-members-say .section-content .card .card-body blockquote:after{
+  content: " ";
+  background-image: url(../assets/images/bottom-quote.svg);
+  margin-left: -250px;
+  left: 100%;
+  top: auto;
+  bottom: 120px;
+  width: 23px;
+  height: 16px;
+}
+#our-members-say .section-content .card .card-body p.author {
+  margin-top: 24px;
+}
+#our-members-say .section-content .card .card-body p.company {
+  text-decoration: underline;
+}
+#our-members-say .section-content .swiper-wrap {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: block;
+  text-align: left;
+}
+#our-members-say .section-content .swiper-wrap .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: transparent;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+#our-members-say .section-content .swiper-wrap .swiper-button-prev, #our-members-say .section-content .swiper-wrap .swiper-button-next {
+  width: 45px;
+  height: 45px;
+  background-size: 45px 45px;
+}
+#our-members-say .section-content .swiper-wrap .swiper-button-prev {
+  background-image: url("../assets/images/arrow-left.svg");
+}
+#our-members-say .section-content .swiper-wrap .swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+  left: -100px;
+}
+#our-members-say .section-content .swiper-wrap .swiper-button-next {
+  background-image: url("../assets/images/arrow-right.svg");
+}
+#our-members-say .section-content .swiper-wrap .swiper-button-next, #our-members-say .section-content .swiper-wrap .swiper-container-rtl .swiper-button-prev {
+  right: -90px;
+}

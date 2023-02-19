@@ -406,5 +406,59 @@
       </div>
     </section>
 
+    <section id="our-members-say">
+      <div class="container-fluid">
+        <div class="section-title">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>Our Members Say</h2>
+            </div>
+          </div>
+        </div>
+        <div class="section-content">
+          <div class="row">
+            <div class="col-md-10 mx-auto">
+
+              <div class="swiper-wrap">
+                <div class="swiper-container our-members-say-slide">
+                  <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                      <div class="card">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/our-members-say-example.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                          <blockquote>
+                          At Saltbox we’re surrounded by people who all have the same day-to-day issues. So we do feel like we’re at home with each other.
+                          <p class="author">Gamal Codner</p>
+                          <p class="company">Fresh Heritage</p>
+                          </blockquote>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="card">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/our-members-say-example.png" class="card-img-top" alt="">
+                        <div class="card-body">
+                          <blockquote>
+                          At Saltbox we’re surrounded by people who all have the same day-to-day issues. So we do feel like we’re at home with each otherasddasadsasdasddasasd.
+                          <p class="author">Gamal Codner</p>
+                          <p class="company">Fresh Heritage</p>
+                          </blockquote>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="swiper-button-next" id="depoimentos-next"></div>
+                <div class="swiper-button-prev" id="depoimentos-prev"></div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
   </main>
 <?php get_footer(); ?>
