@@ -410,7 +410,8 @@
               <a href="#" class="btn-default">VIEW MAP OF THE AREA</a>
             </div>
             <div class="col-md-6 d-flex justify-content-center">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/neighborhood.png" alt="">
+              <img class="neighborhood" src="<?php echo get_template_directory_uri(); ?>/assets/images/neighborhood.png" alt="">
+              <iframe width="464" height="358" id="gmap_canvas" src="https://maps.google.com/maps?q=1345%20Seaboard%20Industrial%20Blvd%20NW,%20Atlanta,%20GA% 2030318&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
             </div>
           </div>
         </div>
@@ -451,7 +452,7 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/our-members-say-example.png" class="card-img-top" alt="">
                         <div class="card-body">
                           <blockquote>
-                          At Saltbox we’re surrounded by people who all have the same day-to-day issues. So we do feel like we’re at home with each otherasddasadsasdasddasasd.
+                          At Saltbox we’re surrounded by people who all have the same day-to-day issues. So we do feel like we’re at home with each other.
                           <p class="author">Gamal Codner</p>
                           <p class="company">Fresh Heritage</p>
                           </blockquote>
@@ -479,7 +480,7 @@
               <div id="see-for-youself">
                 <h2>See for Yourself</h2>
                 <p>We’d love to show you around one of our facilities and answer all your questions. Contact us now to arrange a tour.</p>
-                <a href="#" class="btn-default">VIEW MAP OF THE AREA</a>
+                <a href="#" class="btn-default">BOOK A TOUR</a>
               </div>
             </div>
             <div class="col-md-6">
