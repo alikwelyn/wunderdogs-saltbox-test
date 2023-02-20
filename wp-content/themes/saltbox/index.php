@@ -265,10 +265,17 @@
                       <li class="check">Precise Tracking: Digital tracking at every step, from pickup to storage.</li>
                       <li class="check">Security: Everything is behind lock-and-key.</li>
                       <li class="check">Temperature controlled: Unexpected heat wave or polar vortex? Your inventory is protected from the elements.</li>
+                      <div class="collapse" id="flexCollapse">
+                        <li class="check">More examples here</li>
+                        <li class="check">More examples here 2</li>
+                        <li class="check">More examples here 3</li>
+                      </div>
                     </ul>
                   </div>
                   <div class="card-footer">
-                    <a href="#" class="btn-default">LEARN MORE</a>
+                    <button class="btn-default" type="button" data-bs-toggle="collapse" data-bs-target="#flexCollapse" aria-expanded="false" aria-controls="flexCollapse">
+                    LEARN MORE
+                    </button>
                   </div>
                 </div>
               </div>
@@ -285,10 +292,17 @@
                       <li class="check">Returns processing</li>
                       <li class="check">Process optimization</li>
                       <li class="check">Space optimization</li>
+                      <div class="collapse" id="elasticCollapse">
+                        <li class="check">More examples here</li>
+                        <li class="check">More examples here 2</li>
+                        <li class="check">More examples here 3</li>
+                      </div>
                     </ul>
                   </div>
                   <div class="card-footer">
-                    <a href="#" class="btn-default">LEARN MORE</a>
+                    <button class="btn-default" type="button" data-bs-toggle="collapse" data-bs-target="#elasticCollapse" aria-expanded="false" aria-controls="elasticCollapse">
+                    LEARN MORE
+                    </button>
                   </div>
                 </div>
               </div>

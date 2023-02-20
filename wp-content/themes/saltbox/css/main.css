@@ -462,7 +462,7 @@ header {
   background-color: var(--light-gray);
   border: 0;
   border-radius: 0;
-  height: 475px;
+  min-height: 500px;
 }
 #what-youll-get .section-content .boxes .card .card-header {
   padding: 20px 23px 10px;
@@ -520,12 +520,11 @@ header {
 }
 #what-youll-get .section-content .boxes .card .card-body li.check {
   background: url(../assets/images/check.svg) no-repeat left top;
-  height: 42px;
   padding-top: 0px;
   padding-left: 30px;
 }
 #what-youll-get .section-content .boxes .card .card-body ul li {
-  padding: 10px 0;
+  padding: 0 0 20px;
 }
 #what-youll-get .section-content .boxes .card  .card-footer {
   padding: 0 20px 36px;
