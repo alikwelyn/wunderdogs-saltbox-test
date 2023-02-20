@@ -36,7 +36,7 @@ jQuery(document).ready(function() {
     });
 });
 
-// testing
+// Filter to show members in differentes categories in meet our new team section
 jQuery(document).ready(function() {
     jQuery('.col-md-3').hide();
     
@@ -52,5 +52,16 @@ jQuery(document).ready(function() {
         jQuery('.col-md-3[data-category="' + category + '"]').show();
         jQuery('ul li a').removeClass('active');
         jQuery(this).addClass('active');
+    });
+});
+
+// Change between image and map iframe in get to know the meighborhood
+jQuery(document).ready(function() {
+    jQuery('#gmap_canvas').hide();
+
+    jQuery('.btn-default').on('click', function(event) {
+        event.preventDefault();
+        jQuery('#gmap_canvas').toggle();
+        jQuery('img.neighborhood').toggle();
     });
 });
