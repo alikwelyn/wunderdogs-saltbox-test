@@ -1,10 +1,35 @@
+// Init AOS
+AOS.init();
+
 // Swipe Slider
 jQuery(function() {
-    var ourMembersSaySlider = new Swiper ('.swiper-container', {
+    var warehousesSlider = new Swiper ('#warehouses-slider', {
         initialSlide: 0,
         slidesPerView: 1,
         loop: true,
-        allowTouchMove: false,
+        allowTouchMove: true,
+        spaceBetween: 18,
+        navigation: {
+            nextEl: '#warehouses-next',
+            prevEl: '#warehouses-prev',
+        }
+    })
+    var officeSuitesSlider = new Swiper ('#office-suites-slider', {
+        initialSlide: 0,
+        slidesPerView: 1,
+        loop: true,
+        allowTouchMove: true,
+        spaceBetween: 18,
+        navigation: {
+            nextEl: '#office-suites-next',
+            prevEl: '#office-suites-prev',
+        }
+    })
+    var ourMembersSaySlider = new Swiper ('#ombs', {
+        initialSlide: 0,
+        slidesPerView: 1,
+        loop: true,
+        allowTouchMove: true,
         navigation: {
             nextEl: '#depoimentos-next',
             prevEl: '#depoimentos-prev',
@@ -25,14 +50,23 @@ jQuery(document).ready(function() {
 // Open popup on click or hover zoom class in spaces cards
 jQuery(document).ready(function() {
     var zoomElement = jQuery('.zoom');
+    var modal = jQuery('#zoomModal');
+    var modalContent = modal.find('.modal-content');
 
     zoomElement.on('click', function(event) {
         event.preventDefault();
-        jQuery('#zoomModal').modal('show');
+        var imgSrc = jQuery(this).siblings('img').attr('src');
+        var img = jQuery('<img>').attr('src', imgSrc);
+        modalContent.empty().append(img);
+        modal.modal('show');
     });
-    
-    zoomElement.on('mouseenter', function() {
-        jQuery('#zoomModal').modal('show');
+
+    zoomElement.on('mouseenter', function(event) {
+        event.preventDefault();
+        var imgSrc = jQuery(this).siblings('img').attr('src');
+        var img = jQuery('<img>').attr('src', imgSrc);
+        modalContent.empty().append(img);
+        modal.modal('show');
     });
 });
 

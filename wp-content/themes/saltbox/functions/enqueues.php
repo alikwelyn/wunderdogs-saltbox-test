@@ -18,6 +18,10 @@ function custom_enqueue_scripts() {
   wp_register_style('swiperjs', 'https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/css/swiper.css', false, '4.5.0', null);
   wp_enqueue_style('swiperjs');
 
+  // Aos
+  wp_register_style('aos', 'https://unpkg.com/aos@2.3.1/dist/aos.css', false, '2.3.1', null);
+  wp_enqueue_style('aos');
+
   // Main Style
   wp_register_style('main', get_template_directory_uri() . '/css/main.css', false, '1.0.0', null);
   wp_enqueue_style('main');
@@ -39,6 +43,10 @@ function custom_enqueue_scripts() {
   // SwiperJS 4
   wp_register_script('swiperjs', 'https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js', false, '4.5.0', true);
   wp_enqueue_script('swiperjs');
+
+  // AOR
+  wp_register_script('aos', 'https://unpkg.com/aos@next/dist/aos.js', false, '2.3.1', true);
+  wp_enqueue_script('aos');
 
   // Custom Scripts
   wp_register_script('custom', get_template_directory_uri() . '/js/custom.js', false, '1.0.0', true);

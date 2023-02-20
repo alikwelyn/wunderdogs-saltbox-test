@@ -16,7 +16,7 @@
   <section id="hero" class="d-flex align-items-center">
     <div class="container">
       <div class="row">
-        <div class="col-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-lg-6 col-sm-12">
           <h1><span>Atlanta</span></h1>
           <h2>Located in Atlanta’s bustling Upper West Side, our Atlanta location provides a convenient, thriving environment for local business owners.</h2>
           <div class="details">
@@ -34,7 +34,7 @@
       </div>
     </div>
   </section>
-
+ 
   <main id="main">
 
     <section id="secondary-navbar">
@@ -49,16 +49,16 @@
       </nav>
     </section>
 
-    <section id="spaces">
+    <section id="spaces" data-aos="fade-right" data-aos-once="false" data-aos-easing="ease-in-out" data-aos-offset="100" data-aos-delay="10" data-aos-duration="1000">
       <div class="container-fluid">
-        <div class="spaces-title">
+        <div class="spaces-title d-none d-md-block">
           <div class="row">
             <div class="col-md-12">
               <h2>Spaces for companies of all sizes</h2>
             </div>
           </div>
         </div>
-        <div class="spaces-header">
+        <div class="spaces-header d-none d-md-block">
           <div class="row">
             <div class="col-md-6">
               <h3>Warehouses</h3>
@@ -68,7 +68,7 @@
             </div>
           </div>
         </div>
-        <div class="spaces-content">
+        <div class="spaces-content d-none d-md-block">
           <div class="row">
             <div class="col-md-4">
               <div class="card">
@@ -77,7 +77,7 @@
                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                   </a>
                 </div>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/warehouse-small.png" class="card-img-top" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/warehouse-small.svg" class="card-img-top" alt="">
                 <div class="card-body">
                   <h5>Warehouse Small</h5>
                   <p>The launchpad that takes you out of your home</p>
@@ -91,7 +91,7 @@
                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                   </a>
                 </div>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/warehouse-small.png" class="card-img-top" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/warehouse-medium.svg" class="card-img-top" alt="">
                 <div class="card-body">
                   <h5>Warehouse Medium</h5>
                   <p>For your growing operation ready to take your business to the next level</p>
@@ -105,7 +105,7 @@
                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                   </a>
                 </div>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/warehouse-small.png" class="card-img-top" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/warehouse-large.svg" class="card-img-top" alt="">
                 <div class="card-body">
                   <h5>Warehouse Large</h5>
                   <p>Operate excellently at full scale</p>
@@ -114,7 +114,7 @@
             </div>
           </div>
         </div>
-        <div class="spaces-header">
+        <div class="spaces-header d-none d-md-block">
           <div class="row">
             <div class="col-md-6">
               <h3>Office Suites</h3>
@@ -124,7 +124,7 @@
             </div>
           </div>
         </div>
-        <div class="spaces-content">
+        <div class="spaces-content d-none d-md-block">
           <div class="row">
             <div class="col-md-4">
               <div class="card">
@@ -133,7 +133,7 @@
                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                   </a>
                 </div>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/warehouse-small.png" class="card-img-top" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-suites-1-person.svg" class="card-img-top" alt="">
                 <div class="card-body">
                   <h5>Office Suites - 1 Person</h5>
                   <p>Elevate your solopreneur space</p>
@@ -147,7 +147,7 @@
                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                   </a>
                 </div>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/warehouse-small.png" class="card-img-top" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-suites-2-person.svg" class="card-img-top" alt="">
                 <div class="card-body">
                   <h5>Office Suites - 2 Person</h5>
                   <p>Tailor-made for a dynamic duo</p>
@@ -161,7 +161,7 @@
                     <i class="fa fa-search-plus" aria-hidden="true"></i>
                   </a>
                 </div>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/warehouse-small.png" class="card-img-top" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-suites-team.svg" class="card-img-top" alt="">
                 <div class="card-body">
                   <h5>Office Suites - Team</h5>
                   <p>Collaborate with your team in a modern workspace</p>
@@ -170,10 +170,165 @@
             </div>
           </div>
         </div>
+
+        <div class="spaces-title d-block d-sm-none">
+          <div class="row">
+            <div class="col-md-12">
+              <h2>Spaces for companies of all sizes</h2>
+            </div>
+          </div>
+        </div>
+        <div class="spaces-header d-block d-sm-none">
+          <div class="row">
+            <div class="col-md-12">
+              <h3>Warehouses</h3>
+            </div>
+          </div>
+        </div>
+        <div class="spaces-content d-block d-sm-none">
+          <div class="row">
+            <div id="slider" class="col-md-12">
+              <div class="swiper-wrap">
+                <div id="warehouses-slider" class="swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="col-md-12">
+                        <div class="card">
+                          <div class="zoom">
+                            <a href="#">
+                              <i class="fa fa-search-plus" aria-hidden="true"></i>
+                            </a>
+                          </div>
+                          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/warehouse-small.svg" class="card-img-top" alt="">
+                          <div class="card-body">
+                            <h5>Warehouse Small</h5>
+                            <p>The launchpad that takes you out of your home</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="col-md-4">
+                        <div class="card">
+                          <div class="zoom">
+                            <a href="#">
+                              <i class="fa fa-search-plus" aria-hidden="true"></i>
+                            </a>
+                          </div>
+                          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/warehouse-medium.svg" class="card-img-top" alt="">
+                          <div class="card-body">
+                            <h5>Warehouse Medium</h5>
+                            <p>For your growing operation ready to take your business to the next level</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="col-md-12">
+                        <div class="card">
+                          <div class="zoom">
+                            <a href="#">
+                              <i class="fa fa-search-plus" aria-hidden="true"></i>
+                            </a>
+                          </div>
+                          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/warehouse-large.svg" class="card-img-top" alt="">
+                          <div class="card-body">
+                            <h5>Warehouse Large</h5>
+                            <p>Operate excellently at full scale</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-next" id="warehouses-next"></div>
+                <div class="swiper-button-prev" id="warehouses-prev"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 text-center">
+              <a href="#" class="btn-default">COMPARE ALL WAREHOUSES</a>
+            </div>
+          </div>
+        </div>
+        <div class="spaces-header d-block d-sm-none">
+          <div class="row">
+            <div class="col-md-6">
+              <h3>Office Suites</h3>
+            </div>
+          </div>
+        </div>
+        <div class="spaces-content d-block d-sm-none">
+          <div class="row">
+            <div id="slider" class="col-md-12">
+              <div class="swiper-wrap">
+                <div id="office-suites-slider" class="swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="col-md-12">
+                        <div class="card">
+                          <div class="zoom">
+                            <a href="#">
+                              <i class="fa fa-search-plus" aria-hidden="true"></i>
+                            </a>
+                          </div>
+                          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-suites-1-person.svg" class="card-img-top" alt="">
+                          <div class="card-body">
+                            <h5>Office Suites - 1 Person</h5>
+                            <p>Elevate your solopreneur space</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="col-md-4">
+                        <div class="card">
+                          <div class="zoom">
+                            <a href="#">
+                              <i class="fa fa-search-plus" aria-hidden="true"></i>
+                            </a>
+                          </div>
+                          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-suites-2-person.svg" class="card-img-top" alt="">
+                          <div class="card-body">
+                            <h5>Office Suites - 2 Person</h5>
+                            <p>Tailor-made for a dynamic duo</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="col-md-12">
+                        <div class="card">
+                          <div class="zoom">
+                            <a href="#">
+                              <i class="fa fa-search-plus" aria-hidden="true"></i>
+                            </a>
+                          </div>
+                          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/office-suites-team.svg" class="card-img-top" alt="">
+                          <div class="card-body">
+                            <h5>Office Suites - Team</h5>
+                            <p>Collaborate with your team in a modern workspace</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-next" id="office-suites-next"></div>
+                <div class="swiper-button-prev" id="office-suites-prev"></div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 text-center mb-5">
+              <a href="#" class="btn-default">COMPARE ALL OFFICE SUITES</a>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
 
-    <section id="what-youll-get">
+    <section id="what-youll-get" data-aos="fade-up" data-aos-once="false" data-aos-easing="ease-in-out" data-aos-offset="100" data-aos-delay="10" data-aos-duration="1000">
       <div class="container-fluid">
         <div class="section-title">
           <div class="row">
@@ -286,7 +441,7 @@
                     <p>On-demand operations specialists to help with:</p>
                   </div>
                   <div class="card-body">
-                    <ul>
+                    <ul class="elastic">
                       <li class="check">Receiving & sorting</li>
                       <li class="check">Kitting & assembly</li>
                       <li class="check">Returns processing</li>
@@ -327,7 +482,7 @@
       </div>
     </section>
 
-    <section id="our-team">
+    <section id="our-team" data-aos="fade-down" data-aos-once="false" data-aos-easing="ease-in-out" data-aos-offset="100" data-aos-delay="10" data-aos-duration="1000">
       <div class="container-fluid">
         <div class="section-title">
           <div class="row">
@@ -400,16 +555,16 @@
       </div>
     </section>
 
-    <section id="neighborhood">
+    <section id="neighborhood" data-aos="fade-right" data-aos-once="false" data-aos-easing="ease-in-out" data-aos-offset="100" data-aos-delay="10" data-aos-duration="1000">
       <div class="container-fluid">
         <div class="section-title">
           <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 order-2 order-md-1">
               <h2>Get to Know the Neighborhood</h2>
               <p>Atlanta’s Upper Westside is an easy-to-access neighborhood that combines the charm of in-town with the spaciousness of an industrial hub. Plus, there’s plenty of local breweries and barbecue joints perfect for a long lunch break or happy hour.</p>
               <a href="#" class="btn-default">VIEW MAP OF THE AREA</a>
             </div>
-            <div class="col-md-6 d-flex justify-content-center">
+            <div class="col-md-6 d-flex justify-content-center order-md-2">
               <img class="neighborhood" src="<?php echo get_template_directory_uri(); ?>/assets/images/neighborhood.png" alt="">
               <iframe width="464" height="358" id="gmap_canvas" src="https://maps.google.com/maps?q=1345%20Seaboard%20Industrial%20Blvd%20NW,%20Atlanta,%20GA% 2030318&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
             </div>
@@ -418,7 +573,7 @@
       </div>
     </section>
 
-    <section id="our-members-say">
+    <section id="our-members-say" data-aos="zoom-in" data-aos-once="false" data-aos-easing="ease-in-out" data-aos-offset="100" data-aos-delay="10" data-aos-duration="1000">
       <div class="container-fluid">
         <div class="section-title">
           <div class="row">
@@ -432,7 +587,7 @@
             <div class="col-md-10 mx-auto">
 
               <div class="swiper-wrap">
-                <div class="swiper-container our-members-say-slide">
+                <div id="ombs" class="swiper-container">
                   <div class="swiper-wrapper">
 
                     <div class="swiper-slide">
@@ -440,9 +595,11 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/our-members-say-example.png" class="card-img-top" alt="">
                         <div class="card-body">
                           <blockquote>
-                          At Saltbox we’re surrounded by people who all have the same day-to-day issues. So we do feel like we’re at home with each other.
-                          <p class="author">Gamal Codner</p>
-                          <p class="company">Fresh Heritage</p>
+                            <i class="top"></i> 
+                            At Saltbox we’re surrounded by people who all have the same day-to-day issues. So we do feel like we’re at home with each other.
+                            <i class="bottom"></i>
+                            <p class="author">Gamal Codner</p>
+                            <p class="company">Fresh Heritage</p>
                           </blockquote>
                         </div>
                       </div>
@@ -452,9 +609,11 @@
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/our-members-say-example.png" class="card-img-top" alt="">
                         <div class="card-body">
                           <blockquote>
-                          At Saltbox we’re surrounded by people who all have the same day-to-day issues. So we do feel like we’re at home with each other.
-                          <p class="author">Gamal Codner</p>
-                          <p class="company">Fresh Heritage</p>
+                            <i class="top"></i>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper turpis at lacinia convallis. Curabitur tempus euismod massa.
+                            <i class="bottom"></i>
+                            <p class="author">Gamal Codner</p>
+                            <p class="company">Fresh Heritage</p>
                           </blockquote>
                         </div>
                       </div>
@@ -472,7 +631,7 @@
       </div>
     </section>
 
-    <section id="sfysu">
+    <section id="sfysu" data-aos="fade-left" data-aos-once="false" data-aos-easing="ease-in-out" data-aos-offset="100" data-aos-delay="10" data-aos-duration="1000">
       <div class="container-fluid">
         <div class="section-title">
           <div class="row">
@@ -482,13 +641,14 @@
                 <p>We’d love to show you around one of our facilities and answer all your questions. Contact us now to arrange a tour.</p>
                 <a href="#" class="btn-default">BOOK A TOUR</a>
               </div>
+              <hr class="d-block d-sm-none">
             </div>
             <div class="col-md-6">
               <div id="newsletter">
                 <h2>Stay Updated with Our Newsletter</h2>
                 <p>Get alerts on new locations, free education for business owners, and more - all neatly packed, shipped, and delivered straight to your inbox. Sign up now:</p>
                 <input type="email" class="form-control" placeholder="Email"><br>
-                <button href="#" class="btn-default">SUBSSCRIBE</button>
+                <button href="#" class="btn-default">SUBSCRIBE</button>
               </div>
             </div>
           </div>
