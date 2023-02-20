@@ -5,9 +5,16 @@
         <div class="col-6" data-aos="fade-up" data-aos-delay="200">
           <h1><span>Atlanta</span></h1>
           <h2>Located in Atlanta’s bustling Upper West Side, our Atlanta location provides a convenient, thriving environment for local business owners.</h2>
+          <div class="details">
+            <p class="starting-price"><strong>Starting Price: </strong>$1,000</p>
+            <p class="availability"><strong>Availability: </strong>Office Space Only</p>
+            <p class="duration"><strong>Duration: </strong>Monthly</p>
+            <p class="location"><strong>Location: </strong>Atlanta’s Industrial Upper Westside 1345 Seaboard Industrial Blvd</p>
+            <?php echo do_shortcode( '[grw id="15"]' ); ?>
+          </div>
           <div class="d-flex justify-content-center justify-content-lg-start">
             <a href="#" class="btn-default">LEARN MORE</a>
-            <a href="#" class="btn-default">BOOK A TOUR</a>
+            <a href="#" class="btn-default book-a-tour">BOOK A TOUR</a>
           </div>
         </div>
       </div>

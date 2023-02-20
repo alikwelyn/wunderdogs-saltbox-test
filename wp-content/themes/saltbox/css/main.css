@@ -216,9 +216,61 @@ header {
   font-weight: 400;
   line-height: 28px;
   color: var(--white);
-  margin-bottom: 50px;
+  margin-bottom: 32px;
+}
+#hero .details{
+  background-color: var(--white);
+  width: 464px;
+  height: auto;
+  padding: 24px 32px;
+  margin-bottom: 32px;
+}
+#hero .btn-default.book-a-tour,
+#hero .btn-default.book-a-tour:focus {
+  color: var(--color-default);
+  background-color: var(--color-secondary);
+  border: 2px solid var(--color-secondary);
+  margin-left: 24px;
+}
+#hero .btn-default.book-a-tour:hover,
+#hero .btn-default.book-a-tour:focus:hover {
+  color: var(--white);
+  background-color: transparent;
+  border: 2px solid var(--white);
 }
 
+/*
+  * Review widget
+*/
+.wp-gr .wp-google-left {
+  display: none !important;
+}
+.wp-gr.wpac .wp-google-name {
+  display: none !important;
+}
+.wp-gr .wp-google-right {
+  display: flex !important;
+  flex-direction: row !important;
+  align-items: center !important;
+}
+.wp-gr .wp-google-powered {
+  font-family: var(--font-default) !important;
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  line-height: 32px !important;
+  color: var(--color-default) !important;
+  text-decoration: underline !important;
+  padding-left: 10px !important;
+}
+.wp-gr .wp-google-powered img {
+  display: none !important;
+}
+.wp-gr .wp-google-rating {
+  display: none !important;
+}
+.wp-google-stars .wp-stars svg path {
+  fill: var(--color-secondary) !important;
+}
 
 /* Secondary Navbar */
 #secondary-navbar {
