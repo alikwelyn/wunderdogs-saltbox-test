@@ -49,7 +49,7 @@
       </nav>
     </section>
 
-    <section id="spaces">
+    <section id="spaces" data-aos="fade-right" data-aos-once="false" data-aos-easing="ease-in-out" data-aos-offset="100" data-aos-delay="10" data-aos-duration="1000">
       <div class="container-fluid">
         <div class="spaces-title d-none d-md-block">
           <div class="row">
@@ -328,7 +328,7 @@
       </div>
     </section>
 
-    <section id="what-youll-get">
+    <section id="what-youll-get" data-aos="fade-up" data-aos-once="false" data-aos-easing="ease-in-out" data-aos-offset="100" data-aos-delay="10" data-aos-duration="1000">
       <div class="container-fluid">
         <div class="section-title">
           <div class="row">
@@ -482,7 +482,7 @@
       </div>
     </section>
 
-    <section id="our-team">
+    <section id="our-team" data-aos="fade-down" data-aos-once="false" data-aos-easing="ease-in-out" data-aos-offset="100" data-aos-delay="10" data-aos-duration="1000">
       <div class="container-fluid">
         <div class="section-title">
           <div class="row">
@@ -555,7 +555,7 @@
       </div>
     </section>
 
-    <section id="neighborhood">
+    <section id="neighborhood" data-aos="fade-right" data-aos-once="false" data-aos-easing="ease-in-out" data-aos-offset="100" data-aos-delay="10" data-aos-duration="1000">
       <div class="container-fluid">
         <div class="section-title">
           <div class="row">
@@ -573,7 +573,7 @@
       </div>
     </section>
 
-    <section id="our-members-say">
+    <section id="our-members-say" data-aos="zoom-in" data-aos-once="false" data-aos-easing="ease-in-out" data-aos-offset="100" data-aos-delay="10" data-aos-duration="1000">
       <div class="container-fluid">
         <div class="section-title">
           <div class="row">
@@ -631,7 +631,7 @@
       </div>
     </section>
 
-    <section id="sfysu">
+    <section id="sfysu" data-aos="fade-left" data-aos-once="false" data-aos-easing="ease-in-out" data-aos-offset="100" data-aos-delay="10" data-aos-duration="1000">
       <div class="container-fluid">
         <div class="section-title">
           <div class="row">

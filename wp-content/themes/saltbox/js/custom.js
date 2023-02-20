@@ -1,3 +1,6 @@
+// Init AOS
+AOS.init();
+
 // Swipe Slider
 jQuery(function() {
     var warehousesSlider = new Swiper ('#warehouses-slider', {
