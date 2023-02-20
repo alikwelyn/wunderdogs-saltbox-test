@@ -347,78 +347,54 @@
                 <li><a href="">Category 5</a></li>
               </ul>
             </div>
-            <div class="col-md-3">
+
+            <div class="col-md-3" data-category="Category 1">
               <div class="card">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/worker-example.png" class="card-img-top" alt="">
                 <div class="card-body">
-                  <h5>Name Surname</h5>
+                  <h5>Name Surname 1</h5>
                   <p>Founder and CEO</p>
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3" data-category="Category 2">
               <div class="card">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/worker-example.png" class="card-img-top" alt="">
                 <div class="card-body">
-                  <h5>Name Surname</h5>
+                  <h5>Name Surname 2</h5>
                   <p>Founder and CEO</p>
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3" data-category="Category 3">
               <div class="card">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/worker-example.png" class="card-img-top" alt="">
                 <div class="card-body">
-                  <h5>Name Surname</h5>
+                  <h5>Name Surname 3</h5>
                   <p>Founder and CEO</p>
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3" data-category="Category 4">
               <div class="card">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/worker-example.png" class="card-img-top" alt="">
                 <div class="card-body">
-                  <h5>Name Surname</h5>
+                  <h5>Name Surname 4</h5>
                   <p>Founder and CEO</p>
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3" data-category="Category 5">
               <div class="card">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/worker-example.png" class="card-img-top" alt="">
                 <div class="card-body">
-                  <h5>Name Surname</h5>
+                  <h5>Name Surname 5</h5>
                   <p>Founder and CEO</p>
                 </div>
               </div>
             </div>
-            <div class="col-md-3">
-              <div class="card">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/worker-example.png" class="card-img-top" alt="">
-                <div class="card-body">
-                  <h5>Name Surname</h5>
-                  <p>Founder and CEO</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/worker-example.png" class="card-img-top" alt="">
-                <div class="card-body">
-                  <h5>Name Surname</h5>
-                  <p>Founder and CEO</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-3">
-              <div class="card">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/worker-example.png" class="card-img-top" alt="">
-                <div class="card-body">
-                  <h5>Name Surname</h5>
-                  <p>Founder and CEO</p>
-                </div>
-              </div>
-            </div>
+
+
           </div>
         </div>
       </div>
