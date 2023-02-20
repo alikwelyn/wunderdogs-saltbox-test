@@ -47,14 +47,23 @@ jQuery(document).ready(function() {
 // Open popup on click or hover zoom class in spaces cards
 jQuery(document).ready(function() {
     var zoomElement = jQuery('.zoom');
+    var modal = jQuery('#zoomModal');
+    var modalContent = modal.find('.modal-content');
 
     zoomElement.on('click', function(event) {
         event.preventDefault();
-        jQuery('#zoomModal').modal('show');
+        var imgSrc = jQuery(this).siblings('img').attr('src');
+        var img = jQuery('<img>').attr('src', imgSrc);
+        modalContent.empty().append(img);
+        modal.modal('show');
     });
-    
-    zoomElement.on('mouseenter', function() {
-        jQuery('#zoomModal').modal('show');
+
+    zoomElement.on('mouseenter', function(event) {
+        event.preventDefault();
+        var imgSrc = jQuery(this).siblings('img').attr('src');
+        var img = jQuery('<img>').attr('src', imgSrc);
+        modalContent.empty().append(img);
+        modal.modal('show');
     });
 });
 
