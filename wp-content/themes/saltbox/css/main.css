@@ -382,7 +382,7 @@ header {
   background: #FFFFFF;
   border: 1px solid #F1F1F1;
   border-radius: 0;
-  height: 378px;
+  min-height: 420px;
 }
 #spaces .spaces-content .card img {
   width: 316px;
@@ -770,6 +770,7 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
+  min-width: 100%;
 }
 #our-members-say .section-content .card img {
   width: 207px;
@@ -781,6 +782,23 @@ header {
 #our-members-say .section-content .card .card-body {
   padding: 0 24px;
   text-align: left;
+}
+#our-members-say .section-content .card .card-body i.top {
+  display: inline-block;
+  background-image: url(../assets/images/top-quote.svg);
+  width: 23px;
+  height: 16px;
+  position: relative;
+  top: 19px;
+  left: -27px;
+}
+#our-members-say .section-content .card .card-body blockquote i.bottom {
+  display: inline-block;
+  background-image: url(../assets/images/bottom-quote.svg);
+  width: 23px;
+  height: 16px;
+  position: relative;
+  top: 7px;
 }
 #our-members-say .section-content .card .card-body blockquote {
   font-family: var(--font-default);
@@ -795,29 +813,6 @@ header {
   font-weight: 700;
   line-height: 14px;
   color: var(--color-primary);
-}
-#our-members-say .section-content .card .card-body blockquote:before,
-#our-members-say .section-content .card .card-body blockquote:after{
-  position: absolute;
-}
-#our-members-say .section-content .card .card-body blockquote:before{
-  content: " ";
-  background-image: url(../assets/images/top-quote.svg);
-  top: 30px;
-  margin-right: -230px;
-  right: 100%;
-  width: 23px;
-  height: 16px;
-}
-#our-members-say .section-content .card .card-body blockquote:after{
-  content: " ";
-  background-image: url(../assets/images/bottom-quote.svg);
-  margin-left: -250px;
-  left: 100%;
-  top: auto;
-  bottom: 120px;
-  width: 23px;
-  height: 16px;
 }
 #our-members-say .section-content .card .card-body p.author {
   margin-top: 24px;

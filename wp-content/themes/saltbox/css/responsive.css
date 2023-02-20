@@ -1,0 +1,122 @@
+@media (min-width: 1367px) and (max-width: 1440px) {
+    #spaces .spaces-header {
+        padding: 29px 219px 70px;
+    }
+    #spaces .spaces-content {
+        padding: 29px 219px 70px;
+    }
+    #what-youll-get .section-content {
+        padding: 29px 219px 70px;
+    }
+    #what-youll-get .section-content .boxes .card {
+        min-height: 550px;
+    }
+    #our-team .section-content {
+        padding: 29px 219px 70px;
+    }
+    #neighborhood .container-fluid {
+        padding: 29px 219px 0;
+    }
+    #our-members-say .section-content {
+        padding: 0px 219px;
+    }
+    #sfysu .container-fluid {
+        padding: 29px 219px 0;
+    }
+    footer .footer-bottom .container-fluid {
+        padding: 0 219px 0;
+    }
+}
+
+@media (min-width: 1281px) and (max-width: 1366px) {
+    #spaces .spaces-header {
+        padding: 29px 160px 70px;
+    }
+    #spaces .spaces-content {
+        padding: 29px 160px 70px;
+    }
+    #what-youll-get .section-content {
+        padding: 29px 160px 70px;
+    }
+    #our-team .section-content {
+        padding: 29px 160px 70px;
+    }
+    #neighborhood .container-fluid {
+        padding: 29px 160px 0;
+    }
+    #our-members-say .section-content {
+        padding: 0px 160px;
+    }
+    #sfysu .container-fluid {
+        padding: 29px 160px 0;
+    }
+    footer .footer-bottom .container-fluid {
+        padding: 0 160px 0;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    #spaces .spaces-header {
+        padding: 29px 100px 70px;
+    }
+    #spaces .spaces-content {
+        padding: 29px 100px 70px;
+    }
+    #what-youll-get .section-content {
+        padding: 29px 100px 70px;
+    }
+    #our-team .section-content {
+        padding: 29px 100px 70px;
+    }
+    #neighborhood .container-fluid {
+        padding: 29px 100px 0;
+    }
+    #our-members-say .section-content {
+        padding: 0px 100px;
+    }
+    #sfysu .container-fluid {
+        padding: 29px 100px 0;
+    }
+    footer .footer-bottom .container-fluid {
+        padding: 0 100px 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .navbar li a, .navbar li a:focus {
+        padding: 10px 15px 10px;
+    }
+    #secondary-navbar .navbar li a, #secondary-navbar .navbar li a:focus {
+        padding: 10px 40px 10px;
+    }
+    #spaces .spaces-header {
+        padding: 29px 10px 70px;
+    }
+    #spaces .spaces-content {
+        padding: 29px 10px 70px;
+    }
+    #what-youll-get .section-content {
+        padding: 29px 10px 70px;
+    }
+    #what-youll-get .section-content .boxes .card {
+        min-height: 550px;
+    }
+    #our-team .section-content {
+        padding: 29px 10px 70px;
+    }
+    #neighborhood .container-fluid {
+        padding: 29px 10px 0;
+    }
+    #our-members-say .section-content {
+        padding: 0px 10px;
+    }
+    #sfysu .container-fluid {
+        padding: 29px 10px 0;
+    }
+    footer .footer-bottom .container-fluid {
+        padding: 0 10px 0;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+}

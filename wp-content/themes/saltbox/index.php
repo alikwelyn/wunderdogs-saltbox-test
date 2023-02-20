@@ -439,10 +439,12 @@
                       <div class="card">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/our-members-say-example.png" class="card-img-top" alt="">
                         <div class="card-body">
+                          <i class="top"></i> 
                           <blockquote>
-                          At Saltbox we’re surrounded by people who all have the same day-to-day issues. So we do feel like we’re at home with each other.
-                          <p class="author">Gamal Codner</p>
-                          <p class="company">Fresh Heritage</p>
+                            At Saltbox we’re surrounded by people who all have the same day-to-day issues. So we do feel like we’re at home with each other.
+                            <i class="bottom"></i>
+                            <p class="author">Gamal Codner</p>
+                            <p class="company">Fresh Heritage</p>
                           </blockquote>
                         </div>
                       </div>
@@ -451,10 +453,12 @@
                       <div class="card">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/our-members-say-example.png" class="card-img-top" alt="">
                         <div class="card-body">
+                          <i class="top"></i> 
                           <blockquote>
-                          At Saltbox we’re surrounded by people who all have the same day-to-day issues. So we do feel like we’re at home with each other.
-                          <p class="author">Gamal Codner</p>
-                          <p class="company">Fresh Heritage</p>
+                            At Saltbox.
+                            <i class="bottom"></i>
+                            <p class="author">Gamal Codner</p>
+                            <p class="company">Fresh Heritage</p>
                           </blockquote>
                         </div>
                       </div>
