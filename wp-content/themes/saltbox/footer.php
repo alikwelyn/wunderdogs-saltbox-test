@@ -3,13 +3,17 @@
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-md-6">
-                        <ul class="styled-icons">
-                            <li>Follow us on</li>
-                            <li><a href="" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                            <li><a href="" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                            <li><a href="" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                        </ul>
+                        <div class="social-icons">
+                            <div class="follow-us">
+                                <p>Follow us on</p>
+                            </div>
+                            <ul class="styled-icons">
+                                <li><a href="" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                <li><a href="" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
                     </div>
                     <div class="col-xs-12 col-md-6">
                         <ul class="mail">
@@ -27,38 +31,42 @@
                     </div>
                     <div class="col-lg-2 col-md-6 footer-links">
                         <h4>Saltbox</h4>
-                        <ul>
-                            <li><a href="#">About us</a></li>
-                            <li><a href="#">Partners</a></li>
-                            <li><a href="#">Brokers</a></li>
-                            <li><a href="#">Referrals</a></li>
-                        </ul>
+                        <?php
+                            wp_nav_menu( array(
+                            'theme_location' => 'footer-menu-1',
+                            'container' => false,
+                            ) );
+                        ?>
+                        <hr class="d-block d-sm-none">
                     </div>
                     <div class="col-lg-2 col-md-6 footer-links">
                         <h4>Products</h4>
-                        <ul>
-                            <li><a href="#">Workspaces</a></li>
-                            <li><a href="#">Logistics Services</a></li>
-                            <li><a href="#">Fulfillment</a></li>
-                        </ul>
+                        <?php
+                            wp_nav_menu( array(
+                            'theme_location' => 'footer-menu-2',
+                            'container' => false,
+                            ) );
+                        ?>
+                        <hr class="d-block d-sm-none">
                     </div>
                     <div class="col-lg-2 col-md-6 footer-links">
                         <h4>Locations</h4>
-                        <ul>
-                            <li><a href="#">Atlanta</a></li>
-                            <li><a href="#">Dallas</a></li>
-                            <li><a href="#">Seattle</a></li>
-                        </ul>
+                        <?php
+                            wp_nav_menu( array(
+                            'theme_location' => 'footer-menu-3',
+                            'container' => false,
+                            ) );
+                        ?>
+                        <hr class="d-block d-sm-none">
                     </div>
                     <div class="col-lg-2 col-md-6 footer-links">
                         <h4>Resources</h4>
-                        <ul>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Member Stories</a></li>
-                            <li><a href="#">FAQs</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Careers</a></li>
-                        </ul>
+                        <?php
+                            wp_nav_menu( array(
+                            'theme_location' => 'footer-menu-4',
+                            'container' => false,
+                            ) );
+                        ?>
                     </div>
                 </div>
             </div>

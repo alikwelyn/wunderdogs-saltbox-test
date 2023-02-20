@@ -15,7 +15,9 @@
           <img src="<?php echo get_template_directory_uri(); ?>/assets/images/saltbox-logo.svg" alt="<?php echo wp_get_document_title(); ?>">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <?php

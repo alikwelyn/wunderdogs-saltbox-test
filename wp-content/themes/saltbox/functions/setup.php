@@ -30,6 +30,10 @@ add_action( 'after_setup_theme', 'add_title_thumbnails' );
 function register_menu() {
     register_nav_menu('main-menu', 'Menu - Header');
     register_nav_menu('second-menu', 'Menu - Secondary');
+    register_nav_menu('footer-menu-1', 'Footer - Saltbox');
+    register_nav_menu('footer-menu-2', 'Footer - Products');
+    register_nav_menu('footer-menu-3', 'Footer - Locations');
+    register_nav_menu('footer-menu-4', 'Footer - Resources');
 }
 add_action( 'init', 'register_menu' );
 

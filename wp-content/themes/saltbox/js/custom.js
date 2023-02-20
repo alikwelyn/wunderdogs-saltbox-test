@@ -1,10 +1,32 @@
 // Swipe Slider
 jQuery(function() {
-    var ourMembersSaySlider = new Swiper ('.swiper-container', {
+    var warehousesSlider = new Swiper ('#warehouses-slider', {
         initialSlide: 0,
         slidesPerView: 1,
         loop: true,
-        allowTouchMove: false,
+        allowTouchMove: true,
+        spaceBetween: 18,
+        navigation: {
+            nextEl: '#warehouses-next',
+            prevEl: '#warehouses-prev',
+        }
+    })
+    var officeSuitesSlider = new Swiper ('#office-suites-slider', {
+        initialSlide: 0,
+        slidesPerView: 1,
+        loop: true,
+        allowTouchMove: true,
+        spaceBetween: 18,
+        navigation: {
+            nextEl: '#office-suites-next',
+            prevEl: '#office-suites-prev',
+        }
+    })
+    var ourMembersSaySlider = new Swiper ('#ombs', {
+        initialSlide: 0,
+        slidesPerView: 1,
+        loop: true,
+        allowTouchMove: true,
         navigation: {
             nextEl: '#depoimentos-next',
             prevEl: '#depoimentos-prev',
