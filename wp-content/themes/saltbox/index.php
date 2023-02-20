@@ -1,4 +1,18 @@
 <?php get_header(); ?>
+
+  <div class="modal fade" id="zoomModal" tabindex="-1" aria-labelledby="zoom-modal-label" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="zoom-modal-label">Popup Section - Spaces</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+        </div>
+      </div>
+    </div>
+  </div>
+
   <section id="hero" class="d-flex align-items-center">
     <div class="container">
       <div class="row">

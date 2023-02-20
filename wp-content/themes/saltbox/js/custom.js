@@ -21,3 +21,15 @@ jQuery(document).ready(function() {
         reviewsElement.text(newReviewsText);
     }
 });
+
+// Open popup on click or hover zoom class in spaces cards
+jQuery(document).ready(function() {
+    var zoomElement = jQuery('.zoom');
+    zoomElement.on('click', function(event) {
+      event.preventDefault();
+      jQuery('#zoomModal').modal('show');
+    });
+    zoomElement.on('mouseenter', function() {
+      jQuery('#zoomModal').modal('show');
+    });
+});
