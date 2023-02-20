@@ -341,7 +341,7 @@ header {
 }
 #spaces .spaces-header {
   background-color: var(--light-gray);
-  padding: 70px 218px;
+  padding: 70px 218px 29px;
 }
 #spaces .spaces-header h3 {
   font-family: var(--font-secondary);
@@ -376,6 +376,7 @@ header {
 }
 #spaces .spaces-content .zoom a:hover {
   color: var(--color-default);
+  transform: scale(1.1);
 }
 #spaces .spaces-content .card {
   background: #FFFFFF;
